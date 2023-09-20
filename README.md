@@ -1,3 +1,10 @@
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+
 # bashscript
 1>file_name success: This command redirects the stdout (file descriptor 1) of a command to a file named "file_name" and writes the word "success" to that file. If the file "file_name" does not exist, it will be created; if it does exist, its contents will be replaced with "success."
 
@@ -27,10 +34,6 @@ Benefits of Using a Shebang:
 - **Ease of Execution:** Users can run scripts directly without needing to specify the interpreter each time.
 
 It's important to note that the shebang line should appear on the very first line of the script, and there should be no spaces or other characters before it. Additionally, the interpreter path must be the absolute path to the interpreter, not a relative path. If the interpreter is not available at the specified path, the script will fail to execute.
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+
+
 ```
