@@ -1,12 +1,12 @@
 ```diff
-- text in red
+
 + text in green
 ! text in orange
 # text in gray
 @@ text in purple (and bold)@@
 
 # bashscript
-1>file_name success: This command redirects the stdout (file descriptor 1) of a command to a file named "file_name" and writes the word "success" to that file. If the file "file_name" does not exist, it will be created; if it does exist, its contents will be replaced with "success."
+- text in red 1>file_name success: This command redirects the stdout (file descriptor 1) of a command to a file named "file_name" and writes the word "success" to that file. If the file "file_name" does not exist, it will be created; if it does exist, its contents will be replaced with "success."
 
 2>file_name error: This command redirects the stderr (file descriptor 2) of a command to a file named "file_name" and writes the word "error" to that file. Similar to the previous command, if the file "file_name" exists, its contents will be replaced with "error."
 
