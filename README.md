@@ -27,3 +27,10 @@ Benefits of Using a Shebang:
 - **Ease of Execution:** Users can run scripts directly without needing to specify the interpreter each time.
 
 It's important to note that the shebang line should appear on the very first line of the script, and there should be no spaces or other characters before it. Additionally, the interpreter path must be the absolute path to the interpreter, not a relative path. If the interpreter is not available at the specified path, the script will fail to execute.
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
